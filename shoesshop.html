@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes-TK</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./shoes.css">
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <div class="brandbar">
+                <img src="https://t4.ftcdn.net/jpg/04/60/99/63/360_F_460996349_bIzl423o41oLdi5hJIgNT3OD8SViuo9i.jpg"
+                    alt="logo">
+                <h3>DevShop</h3>
+            </div>
+            <div class="linkbar">
+                <ul class="links">
+                    <li class="link-item active">
+                        Ботинки
+                    </li>
+                    <li class="link-item">
+                        Кроссовки
+                    </li>
+                    <li class="link-item">
+                        Кеды
+                    </li>
+                    <li class="link-item">
+                        Мокасины
+                    </li>
+                </ul>
+            </div>
+            <div class="cart">
+                <div class="cart-counter">3</div>
+                <i class='bx bx-cart'></i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sidebar">
+                <p class="filter">Фильтр</p>
+                <p class="filter-title mb-15">Материал</p>
+                <div class="materials mb-15">
+                    <ul>
+                        <li><input type="checkbox" id="leather" value="leather"><label for="leather">Кожа</label></li>
+                        <li><input type="checkbox" id="ecoleather" value="ecoleather"><label
+                                for="ecoleather">Экокожа</label></li>
+                        <li><input type="checkbox" id="textile" value="textile"><label for="textile">Текстиль</label>
+                        </li>
+                    </ul>
+                </div>
+                <p class="filter-title">Цена</p>
+                <div class="price mb-15">
+                    <div class="price-inputs">
+                        <input type="number" placeholder="High" name="hight" id="hight">
+                        <input type="number" placeholder="Low" name="low" id="low">
+                    </div>
+                    <button class="set-price">
+                        Set price
+                    </button>
+                </div>
+                <p class="filter-title">Рейтинг</p>
+                <div class="rating mb-15">
+                    <div class="star-rating">
+                        <input type="radio" id="5-stars" name="rating" value="5" />
+                        <label for="5-stars" class="star">&#9733;</label>
+                        <input type="radio" id="4-stars" name="rating" value="4" />
+                        <label for="4-stars" class="star">&#9733;</label>
+                        <input type="radio" id="3-stars" name="rating" value="3" />
+                        <label for="3-stars" class="star">&#9733;</label>
+                        <input type="radio" id="2-stars" name="rating" value="2" />
+                        <label for="2-stars" class="star">&#9733;</label>
+                        <input type="radio" id="1-star" name="rating" value="1" />
+                        <label for="1-star" class="star">&#9733;</label>
+                    </div>
+                </div>
+                <button class="clear-filter">
+                    Clear filter
+                </button>
+            </div>
+            <div class="products">
+                <div class="search">
+                    <span class="bx bx-x search-clear"></span>
+                    <span class="bx bx-search"></span>
+                    <input placeholder="Search term">
+                </div>
+                <p class="search-by">
+                    Результат поиска по: <b>Значение</b>
+                </p>
+                <div class="sort">
+                    <p class="sort-title">
+                        Сортировка
+                    </p>
+                    <div class="sort-buttons">
+                        <button class="active">Популярности</button>
+                        <button>Цене</button>
+                        <button>Рейтингу</button>
+                        <button>Новее</button>
+                    </div>
+                </div>
+                <div class="product-row">
+                    <div class="card">
+                        <div class="content-1">
+                            <div class="logo-img">
+                                <img src="https://i.postimg.cc/vBJtjtRC/nike-logo.png" alt="">
+                            </div>
+                            <img src="https://i.postimg.cc/cHgcX5zQ/nike.png" alt="">
+                        </div>
+                        <div class="content-2">
+                            <div class="branding">
+                                <span>NIKE FOOTWEAR</span>
+                                <h4>Running Collection</h4>
+                            </div>
+                            <div class="ratings">
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                            </div>
+                            <div class="size">
+                                <h3>SIZE</h3>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                                <span>11</span>
+
+                            </div>
+                            <div class="price-card">
+                                <span>KZT 12,995</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content-1">
+                            <div class="logo-img">
+                                <img src="https://i.postimg.cc/vBJtjtRC/nike-logo.png" alt="">
+                            </div>
+                            <img src="https://i.postimg.cc/cHgcX5zQ/nike.png" alt="">
+                        </div>
+                        <div class="content-2">
+                            <div class="branding">
+                                <span>NIKE FOOTWEAR</span>
+                                <h4>Running Collection</h4>
+                            </div>
+                            <div class="ratings">
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                            </div>
+                            <div class="size">
+                                <h3>SIZE</h3>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                                <span>11</span>
+
+                            </div>
+                            <div class="price-card">
+                                <span>KZT 12,995</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content-1">
+                            <div class="logo-img">
+                                <img src="https://i.postimg.cc/vBJtjtRC/nike-logo.png" alt="">
+                            </div>
+                            <img src="https://i.postimg.cc/cHgcX5zQ/nike.png" alt="">
+                        </div>
+                        <div class="content-2">
+                            <div class="branding">
+                                <span>NIKE FOOTWEAR</span>
+                                <h4>Running Collection</h4>
+                            </div>
+                            <div class="ratings">
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                            </div>
+                            <div class="size">
+                                <h3>SIZE</h3>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                                <span>11</span>
+
+                            </div>
+                            <div class="price-card">
+                                <span>KZT 12,995</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content-1">
+                            <div class="logo-img">
+                                <img src="https://i.postimg.cc/vBJtjtRC/nike-logo.png" alt="">
+                            </div>
+                            <img src="https://i.postimg.cc/cHgcX5zQ/nike.png" alt="">
+                        </div>
+                        <div class="content-2">
+                            <div class="branding">
+                                <span>NIKE FOOTWEAR</span>
+                                <h4>Running Collection</h4>
+                            </div>
+                            <div class="ratings">
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                            </div>
+                            <div class="size">
+                                <h3>SIZE</h3>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                                <span>11</span>
+
+                            </div>
+                            <div class="price-card">
+                                <span>KZT 12,995</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content-1">
+                            <div class="logo-img">
+                                <img src="https://i.postimg.cc/vBJtjtRC/nike-logo.png" alt="">
+                            </div>
+                            <img src="https://i.postimg.cc/cHgcX5zQ/nike.png" alt="">
+                        </div>
+                        <div class="content-2">
+                            <div class="branding">
+                                <span>NIKE FOOTWEAR</span>
+                                <h4>Running Collection</h4>
+                            </div>
+                            <div class="ratings">
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                            </div>
+                            <div class="size">
+                                <h3>SIZE</h3>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                                <span>11</span>
+
+                            </div>
+                            <div class="price-card">
+                                <span>KZT 12,995</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content-1">
+                            <div class="logo-img">
+                                <img src="https://i.postimg.cc/vBJtjtRC/nike-logo.png" alt="">
+                            </div>
+                            <img src="https://i.postimg.cc/cHgcX5zQ/nike.png" alt="">
+                        </div>
+                        <div class="content-2">
+                            <div class="branding">
+                                <span>NIKE FOOTWEAR</span>
+                                <h4>Running Collection</h4>
+                            </div>
+                            <div class="ratings">
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                                <span><i class="bx bx-star"></i></span>
+                            </div>
+                            <div class="size">
+                                <h3>SIZE</h3>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                                <span>11</span>
+
+                            </div>
+                            <div class="price-card">
+                                <span>KZT 12,995</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <ul class="pages">
+                        <li class="page-item">1</li>
+                        <li class="page-item">2</li>
+                        <li class="page-item">3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
