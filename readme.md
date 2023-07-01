@@ -1,3 +1,4 @@
+
 # Бәріне сәлем!
 
 Сәлем, бұл макет болашақ YouTube арнасы арналған. Осы макет бойынша біз интернет дүкен жасаймыз!
@@ -20,3 +21,5 @@ FrontEnd
  - **React-pagination**
  - **Redux**
  - **React Loading Skeleton**
+ 
+![ShopAPP screen](https://github.com/Zhailay/ShoesShop-YouTube-template/blob/master/ShopAPP.png?raw=true)
