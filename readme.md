@@ -7,15 +7,16 @@
 
 # Барлық болашақта қолданатын заттар
 BackEnd
-**NodeJS**
-**Express**
-**Multer**
-**JSONWebToken**
+
+ - **NodeJS**
+  -  **Express**
+   - **Multer**
+   - **JSONWebToken**
 
 FrontEnd
-**ReactJS**
-**react-router-dom**
-**Axios**
-**React-pagination**
-**Redux**
-**React Loading Skeleton**
+ - **ReactJS**
+ - **react-router-dom**
+ - **Axios**
+ - **React-pagination**
+ - **Redux**
+ - **React Loading Skeleton**
